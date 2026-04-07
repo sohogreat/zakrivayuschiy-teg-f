@@ -33,7 +33,7 @@
 }
 
 .box-bordered {
-  width: clamp(375px, 100%, 700px);
+  width: min(100%, 700px);
   background-color: #fff;
   border: 2px solid var(--border-color, #000);
 }

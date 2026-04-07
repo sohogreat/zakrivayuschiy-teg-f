@@ -52,6 +52,7 @@
 }
 
 .card__image {
+  margin: 0;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -142,13 +143,14 @@
   padding: 0;
   align-items: center;
   justify-content: center;
-  width: 38px;
-  height: 38px;
+  width: 27px;
+  height: 24px;
   background-color: inherit;
   outline: none;
   cursor: pointer;
   border: 2px solid transparent;
   transition: border 0.3s ease;
+  align-self: center;
 }
 
 .contour {
@@ -282,6 +284,7 @@
   padding: 30px;
   border: 2px solid var(--border-color, #000);
   width: clamp(341px, 90vw, 353px);
+  max-width: 353px;
 }
 
 .dialog__insert-confirm::backdrop {
@@ -330,6 +333,7 @@
   }
 
   .dialog__insert-confirm {
+    width: 341px;
     padding: 30px 40px;
   }
 }

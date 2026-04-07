@@ -1,1 +1,1 @@
-# https://github.com/sohogreat/zakrivayuschiy-teg-f/tree/main
+# https://github.com/sohogreat/zakrivayuschiy-teg-f
